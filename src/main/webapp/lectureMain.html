@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width" />
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script type="text/javascript">	
+	$(function() {
+		$('#header').load('header.html');
+		$('#footer').load('footer.html');
+	})
+</script>
+<style type="text/css">
+	@import url('lectureMain.css');
+*{
+	padding: 0;
+	margin: 0;
+}
+body {
+	width: 100%;
+}
+</style>
+<title>Insert title here</title>
+
+</head>
+<body>
+	<div id="header"></div>
+	<form action="insertLecture.do" method="post" enctype="multipart/form-data" class="lectureeducationinsert-33q" id="22:1837">
+		<div class="auto-group-dnm9-F9u" id="VWi9MJLMhAduGWADQpDNm9">
+			<div class="link-WtT" id="22:1838">
+				<div class="deletebtn-Qiw" id="22:1839">
+					<img class="trash-fill-7tF"
+						src="/api/try-prod-ap-southeast-1-first-cluster/project..."
+						id="22:1572" />
+				</div>
+				<input type="reset" value="다시입력" class="item--DgP" id="22:1840">
+			</div>
+			<div class="link-yJB" id="22:1841">
+				<img class="insertbtn-giP"
+					src="/api/try-prod-ap-southeast-1-first-cluster/project..."
+					id="22:1842" />
+				<input type="submit" value="작성하기" class="item--PMu" id="22:1845">
+			</div>
+		</div>
+		<div class="auto-group-1vu9-dn3" id="VWi96okWKKb82fgSn91vu9">
+			<div class="divcontent-MT9" id="22:1846">
+				<div class="contenttitle-sRV" id="22:1847">강연내용</div>
+				<div class="divleccontent-CCs" id="22:1848">
+					<div class="leccontent-JWo" id="22:1849">내용을 입력해주세요.</div>
+				</div>
+			</div>
+			<div class="imginsertcontent-Grw" id="22:2095">
+				<div class="divplaceholder-mHu" id="22:2096">파일을 첨부해주세요.</div>
+			</div>
+			<div class="imginsertbtn-C8K" id="22:2098">
+				<img class="images-V7R"
+					src="logo.jpg"
+					id="22:1834" />
+					<span>이미지첨부</span> 
+			</div>
+		</div>
+		<div class="divlecdate-p3D" id="22:1851">
+			<div class="lecdatetitle-wtX" id="22:1852">강연일자</div>
+			<div class="divlecdatecontent-HSb" id="22:1853">
+				<div class="lecdatecontent-E6w" id="22:1854">강연일자를 입력해 주세요.</div>
+			</div>
+		</div>
+		<div class="divlecaddr-RhD" id="22:1856">
+			<div class="lecaddrtitle-9t7" id="22:1857">강연장소</div>
+			<div class="divlecaddrcontent-Tdu" id="22:1858">
+				<div class="lecaddrcontent-aTd" id="22:1859">강연장소를 입력해 주세요.</div>
+			</div>
+		</div>
+		<div class="divlecphone-dB1" id="22:1861">
+			<div class="lecphonetitle-M71" id="22:1862">문의전화</div>
+			<div class="divlecphonecontent-HmM" id="22:1863">
+				<div class="lecphonecontent-2yq" id="22:1864">
+					<span class="lecphonecontent-2yq-sub-0">문의전화번호를</span> <span
+						class="lecphonecontent-2yq-sub-1"> 입력해 주세요.</span>
+				</div>
+			</div>
+		</div>
+		<div class="divlecprice-kwm" id="22:1866">
+			<div class="lecpricetitle-tHH" id="22:1867">강연가격</div>
+			<div class="divlecpricecontent-E6F" id="22:1868">
+				<div class="lecpricecontent-m6B" id="22:1869">
+					<span class="lecpricecontent-m6B-sub-0">강연가격을</span> <span
+						class="lecpricecontent-m6B-sub-1"> 입력해 주세요.</span>
+				</div>
+			</div>
+		</div>
+		<div class="divlecapp-oh5" id="22:1871">
+			<div class="lecapptitle-Lh1" id="22:1872">신청대상</div>
+			<div class="divlecappcontent-UoD" id="22:1873">
+				<div class="lecappcontent-2Zq" id="22:1874">신청대상을 입력해 주세요.</div>
+			</div>
+		</div>
+		<div class="divlecturer-fsh" id="22:1911">
+			<div class="lecturertitle-cH9" id="22:1912">강연자</div>
+			<div class="divlecturercontent-MEj" id="22:1913">
+				<div class="lecturercontent-Vbq" id="22:1914">강연자를 입력해 주세요.</div>
+			</div>
+		</div>
+		<div class="divlecname-gwD" id="22:1916">
+			<div class="lecnametitle-2EP" id="22:1917">강연명</div>
+			<div class="divlecnamecontent-N3M" id="22:1918">
+				<input type="text" name="lecName" value="강연명을 입력해주세요." class="lecnamecontent-uoy" id="22:1919">
+			</div>
+		</div>
+		<div class="divlabel-Z7q" id="22:1922">
+			<div class="divh-16-V1V" id="22:1923">
+				<div class="divh-full-p3m" id="22:1924">
+				</div>
+			</div>
+			<div class="divtext-jWj" id="22:1960">
+				<div class="item--H2T" id="22:1961">강연</div>
+				<div class="aside--Cv7" id="22:1962">환경전문가의 강연을 듣고 생각의 폭을
+					넓혀보세요.</div>
+			</div>
+		</div>
+	</form>
+	<div id="footer"></div>
+</body>
+</html>
